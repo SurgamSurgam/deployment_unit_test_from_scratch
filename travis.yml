@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-  - "10.11.0"
+  - "11.10.1"
 deploy:
   provider: heroku
   api_key: $HEROKU_KEY
   app: pursuit-fruitsapp-do
   on: master
-  strateg: git
+  strategy: git
